@@ -16,15 +16,14 @@ class ViewController: UIViewController {
         view.backgroundColor = .systemBlue
     }
     
-    
     struct ContentView: View {
         var body: some View {
             VStack(alignment: .leading, spacing: 8) {
-                Text("Swift Beta")
+                Text("Swift Coding")
                     .font(.largeTitle)
                 .bold()
                 
-                Text("Canales recoemendados")
+                Text("Canales")
                     .foregroundColor(.gray)
                 HStack {
                     Rectangle()
@@ -37,7 +36,6 @@ class ViewController: UIViewController {
                             .foregroundColor(.blue)
                             Text ("username")
                             .font(.headline)
-                            
                         }
                         Text ("streaming de programacion...")
                             .foregroundColor(.gray)
